@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link href="../src/output.css" rel="stylesheet" />
+    <!-- some bootstrap code -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/55436bad4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Al-Kharazmi</title>
+  </head>
+  <body class="text-[14px] font-['Poppins', sans-serif] leading-[1.80857]">
+    <!--the navigation menu  -->
+
+    <nav
+      id="nav"
+      class="fixed top-0 right-0 left-0 transition-all duration-300 z-50"
+    >
+      <!-- fixed top-0 right-0 left-0 pb-4 transition-all duration-300 sm:bg-transparent bg-zinc-800 -->
+      <div class="flex flex-row px-4 sm:px-28 pt-4 items-center">
+        <a class="mr-auto" href="#page-top">
+          <img
+            class="w-full h-16 sm: max-w-full sm:h-auto"
+            src="images/logo.png"
+            alt=""
+          />
+        </a>
+        <button
+          class="text-slate-50 border border-slate-100 rounded py-0.5 px-2 shadow-md sm:hidden active:outline-neutral-800"
+          id="nav-toggle"
+        >
+          <span
+            style="font-family: 'Rubik', sans-serif"
+            class="inline-block text-lg"
+          >
+            Menu</span
+          >
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 0 21 20"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            class="inline-block"
+            style="margin-bottom: 4px"
+          >
+            <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+            <title>menu_navigation_grid [#1528]</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="Dribbble-Light-Preview"
+                transform="translate(-139.000000, -200.000000)"
+                fill="#ffffff"
+              >
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                  <path
+                    d="M101.9,57.009 C101.9,57.56 101.38235,58 100.80275,58 L97.65275,58 C97.0742,58 96.65,57.56 96.65,57.009 L96.65,54.009 C96.65,53.458 97.0742,53 97.65275,53 L100.80275,53 C101.38235,53 101.9,53.458 101.9,54.009 L101.9,57.009 Z M100.80275,51 L97.65275,51 C95.9129,51 94.55,52.352 94.55,54.009 L94.55,57.009 C94.55,58.666 95.9129,60 97.65275,60 L100.80275,60 C102.5426,60 104,58.666 104,57.009 L104,54.009 C104,52.352 102.5426,51 100.80275,51 L100.80275,51 Z M90.35,57.009 C90.35,57.56 89.83235,58 89.25275,58 L86.10275,58 C85.5242,58 85.1,57.56 85.1,57.009 L85.1,54.009 C85.1,53.458 85.5242,53 86.10275,53 L89.25275,53 C89.83235,53 90.35,53.458 90.35,54.009 L90.35,57.009 Z M89.25275,51 L86.10275,51 C84.3629,51 83,52.352 83,54.009 L83,57.009 C83,58.666 84.3629,60 86.10275,60 L89.25275,60 C90.9926,60 92.45,58.666 92.45,57.009 L92.45,54.009 C92.45,52.352 90.9926,51 89.25275,51 L89.25275,51 Z M101.9,46.009 C101.9,46.56 101.38235,47 100.80275,47 L97.65275,47 C97.0742,47 96.65,46.56 96.65,46.009 L96.65,43.009 C96.65,42.458 97.0742,42 97.65275,42 L100.80275,42 C101.38235,42 101.9,42.458 101.9,43.009 L101.9,46.009 Z M100.80275,40 L97.65275,40 C95.9129,40 94.55,41.352 94.55,43.009 L94.55,46.009 C94.55,47.666 95.9129,49 97.65275,49 L100.80275,49 C102.5426,49 104,47.666 104,46.009 L104,43.009 C104,41.352 102.5426,40 100.80275,40 L100.80275,40 Z M90.35,46.009 C90.35,46.56 89.83235,47 89.25275,47 L86.10275,47 C85.5242,47 85.1,46.56 85.1,46.009 L85.1,43.009 C85.1,42.458 85.5242,42 86.10275,42 L89.25275,42 C89.83235,42 90.35,42.458 90.35,43.009 L90.35,46.009 Z M89.25275,40 L86.10275,40 C84.3629,40 83,41.352 83,43.009 L83,46.009 C83,47.666 84.3629,49 86.10275,49 L89.25275,49 C90.9926,49 92.45,47.666 92.45,46.009 L92.45,43.009 C92.45,41.352 90.9926,40 89.25275,40 L89.25275,40 Z"
+                    id="menu_navigation_grid-[#1528]"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+        <div class="hidden sm:block" id="scroll">
+          <ul class="flex flex-row gap-7 text-white text-base font-semibold">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="links">About Us</a>
+            </li>
+            <li>
+              <a href="#services" class="links">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="links">Portfolio</a>
+            </li>
+            <li>
+              <a href="#blog" class="links">Blog</a>
+            </li>
+            <li>
+              <a href="#team" class="links">Our Team</a>
+            </li>
+            <li>
+              <a href="#pricing" class="links">Pricing</a>
+            </li>
+            <li>
+              <a href="#contact" class="links">Contect Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- the main page with navgition menu and more -->
+    <section
+      id="home"
+      class="h-full w-full table text-center"
+      style="
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url('images/back.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+      "
+    >
+      <div
+        class="h-[645px] text-white table-cell relative align-middle text-center scrollspy"
+      >
+        <h1 class="text-3xl text-[#ffffff] font-bold lg:text-7xl sm:text-3xl">
+          Welcome To Al-Kharazmi
+        </h1>
+        <h3 class="text-[#ffffff] px-0 py-5">
+          <p class="words-wraper text-zinc-900 text-xl">Software Enginner</p>
+          <div class="mt-5">
+            <a
+              class="bg-slate-50 mr-1 text-zinc-950 text-lg font-semibold px-5 py-3 -grid-cols-1 rounded-[20px] hover:text-white btn-hover"
+              href="#"
+              data-modal-target="default-modal"
+              data-modal-toggle="default-modal"
+              >Get Started</a
+            >
+            <a
+              class="bg-zinc-800 text-zinc-50 text-lg font-semibold px-5 grid-cols-1 py-3 rounded-[20px] hover:text-white btn-hover"
+              href="#"
+              >Learn More</a
+            >
+          </div>
+        </h3>
+      </div>
+    </section>
+
+    <!-- the about page -->
+    <div id="about" class="scrollspy">
+      <div class="mx-5 my-14 sm:mx-28 sm:my-14">
+        <div class="flex flex-row flex-wrap">
+          <div class="w-full sm:w-3/6">
+            <div class="pb-8 pr-3">
+              <h2
+                class="text-[30px] font-bold pr-5 m-0 leading-[62px] text-zinc-800"
+              >
+                Welcome to Al-Kharazmi
+              </h2>
+              <p class="mb-[20px] text-[16px]">
+                Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                venenatis nibh sed tellus faucibus bibendum. Sed fermentum est
+                vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum
+                neque. Ut id erat sit amet libero bibendum aliquam. Donec ac
+                egestas libero, eu bibendum risus. Phasellus et congue justo.
+              </p>
+              <p class="mb-[20px] text-[16px]">
+                Sed vitae rutrum neque. Ut id erat sit amet libero bibendum
+                aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus
+                et congue justo.
+              </p>
+
+              <a
+                href="#"
+                class="bg-zinc-800 text-zinc-50 text-lg font-semibold px-4 py-3 rounded-[20px] hover:text-white btn-hover"
+                ><span>Contact Us</span></a
+              >
+            </div>
+            <!-- end messagebox -->
+          </div>
+          <!-- end col -->
+
+          <div class="w-full sm:w-3/6">
+            <div
+              class="relative bg-image-about"
+              style="
+                visibility: visible;
+                animation-name: fadeIn;
+                box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
+              "
+            >
+              <img src="images/about_04.jpg" alt="" class="relative z-[2]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- the services page -->
+    <div id="services" class="bg-slate-200 scrollspy">
+      <div class="mx-5 sm:mx-28">
+        <!-- this is for the title of the service box -->
+        <div class="py-16">
+          <h3
+            class="text-3xl sm:text-5xl text-zinc-800 text-center font-semibold leading-5 mt-0 mr-0 mb-[25px] p-0 transform-none"
+          >
+            Services
+          </h3>
+          <p class="text-center text-lg">
+            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+            vehicula enim, non aliquam risus.
+          </p>
+        </div>
+        <!-- the container of service boxes -->
+        <div class="grid grid-cols-1 gap-x-7 sm:grid-cols-3">
+          <div>
+            <div
+              style="
+                border-radius: 50px 50px 0px 50px;
+                box-shadow: 0px 0px 10px 0.1px rgb(204, 204, 204);
+              "
+              class="p-[12px] bg-white mb-[30px] relative transition-all duration-300 service-inner-box group"
+            >
+              <div class="w-[90px] h-[80px] text-center mt-2 relative ser-icon">
+                <i
+                  class="fa-solid fa-desktop text-5xl text-zinc-700 group-hover:text-slate-100"
+                ></i>
+              </div>
+              <h2
+                class="text-2xl text-zinc-800 font-semibold relative mb-3"
+                style="margin-top: -16px"
+              >
+                Web Development
+              </h2>
+              <p class="text-base relative mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: 50px 50px 0px 50px;
+                box-shadow: 0px 0px 10px 0.5px rgb(170, 170, 170);
+              "
+              class="p-[12px] bg-white mb-[30px] relative transition-all duration-300 service-inner-box group"
+            >
+              <div class="w-[90px] h-[80px] text-center mt-2 relative ser-icon">
+                <i
+                  class="fa-solid fa-mobile-screen text-5xl text-zinc-700 group-hover:text-slate-100"
+                ></i>
+              </div>
+              <h2
+                class="text-2xl text-zinc-800 font-semibold relative mb-3"
+                style="margin-top: -16px"
+              >
+                Responsive Design
+              </h2>
+              <p class="text-base relative mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: 50px 50px 0px 50px;
+                box-shadow: 0px 0px 10px 0.5px rgb(170, 170, 170);
+              "
+              class="p-[12px] bg-white mb-[30px] relative transition-all duration-300 service-inner-box group"
+            >
+              <div class="w-[90px] h-[80px] text-center mt-2 relative ser-icon">
+                <i
+                  class="fa-solid fa-gear text-5xl text-zinc-700 group-hover:text-slate-100"
+                ></i>
+              </div>
+              <h2
+                class="text-2xl text-zinc-800 font-semibold relative mb-3"
+                style="margin-top: -16px"
+              >
+                Creative Design
+              </h2>
+              <p class="text-base relative mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: 50px 50px 0px 50px;
+                box-shadow: 0px 0px 10px 0.5px rgb(170, 170, 170);
+              "
+              class="p-[12px] bg-white mb-[30px] relative transition-all duration-300 service-inner-box group"
+            >
+              <div class="w-[90px] h-[80px] text-center mt-2 relative ser-icon">
+                <i
+                  class="fa-solid fa-headset text-5xl text-zinc-700 group-hover:text-slate-100"
+                ></i>
+              </div>
+              <h2
+                class="text-2xl text-zinc-800 font-semibold relative mb-3"
+                style="margin-top: -16px"
+              >
+                Support
+              </h2>
+              <p class="text-base relative mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: 50px 50px 0px 50px;
+                box-shadow: 0px 0px 10px 0.5px rgb(170, 170, 170);
+              "
+              class="p-[12px] bg-white mb-[30px] relative transition-all duration-300 service-inner-box group"
+            >
+              <div class="w-[90px] h-[80px] text-center mt-2 relative ser-icon">
+                <i
+                  class="fa-regular fa-lightbulb text-5xl text-zinc-700 group-hover:text-slate-100"
+                ></i>
+              </div>
+              <h2
+                class="text-2xl text-zinc-800 font-semibold relative mb-3"
+                style="margin-top: -16px"
+              >
+                Web Idea
+              </h2>
+              <p class="text-base relative mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: 50px 50px 0px 50px;
+                box-shadow: 0px 0px 10px 0.5px rgb(170, 170, 170);
+              "
+              class="p-[12px] bg-white mb-[30px] relative transition-all duration-300 service-inner-box group"
+            >
+              <div class="w-[90px] h-[80px] text-center mt-2 relative ser-icon">
+                <i
+                  class="fa-solid fa-desktop text-5xl text-zinc-700 group-hover:text-slate-100"
+                ></i>
+              </div>
+              <h2
+                class="text-2xl text-zinc-800 font-semibold relative mb-3"
+                style="margin-top: -16px"
+              >
+                Graphic Design
+              </h2>
+              <p class="text-base relative mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- the portfolio page -->
+    <div id="portfolio" class="bg-slate-200 py-24 scrollspy">
+      <div class="mx-5 sm:mx-28">
+        <div class="text-center">
+          <h3 class="text-4xl text-zinc-800 font-semibold leadign-[62px] py-7">
+            Portfolio
+          </h3>
+          <p class="text-lg pb-8 font-base">
+            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+            vehicula enim, non aliquam risus.
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <div class="grid grid-cols-1">
+            <div class="flex justify-center gap-3 flex-wrap">
+              <button
+                class="kanit-thin bg-white text-zinc-800 text-base tracking-wide py-2 px-11 b-radius hover:shadow uppercase"
+              >
+                All
+              </button>
+              <button
+                class="kanit-thin bg-white text-zinc-800 text-base tracking-wide py-2 px-11 b-radius hover:shadow uppercase"
+              >
+                Web Development
+              </button>
+              <button
+                class="kanit-thin bg-white text-zinc-800 text-base tracking-wide py-2 px-11 b-radius hover:shadow uppercase"
+              >
+                Creative Design
+              </button>
+              <button
+                class="kanit-thin bg-white text-zinc-800 text-base tracking-wide py-2 px-11 b-radius hover:shadow uppercase"
+              >
+                Graphic Design
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 mt-8 gap-5">
+          <div class="">
+            <div class="relative gallery-single">
+              <img
+                src="images/gallery_img-01.jpg"
+                class="b-radius-m"
+                alt="Image"
+              />
+              <div class="img-overlay">
+                <a
+                  href="images/gallery_img-01.jpg"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal01"
+                  class="hoverbutton global-radius"
+                >
+                  <i class="fa fa-picture-o"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="relative gallery-single">
+              <img
+                src="images/gallery_img-02.jpg"
+                class="b-radius-m"
+                alt="Image"
+              />
+              <div class="img-overlay">
+                <a
+                  href="images/gallery_img-02.jpg"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal01"
+                  class="hoverbutton global-radius"
+                >
+                  <i class="fa fa-picture-o"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="relative gallery-single">
+              <img
+                src="images/gallery_img-03.jpg"
+                class="b-radius-m"
+                alt="Image"
+              />
+              <div class="img-overlay">
+                <a
+                  href="images/gallery_img-03.jpg"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal01"
+                  class="hoverbutton global-radius"
+                >
+                  <i class="fa fa-picture-o"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="relative gallery-single">
+              <img
+                src="images/gallery_img-04.jpg"
+                class="b-radius-m"
+                alt="Image"
+              />
+              <div class="img-overlay">
+                <a
+                  href="images/gallery_img-04.jpg"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal01"
+                  class="hoverbutton global-radius"
+                >
+                  <i class="fa fa-picture-o"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="relative gallery-single">
+              <img
+                src="images/gallery_img-05.jpg"
+                class="b-radius-m"
+                alt="Image"
+              />
+              <div class="img-overlay">
+                <a
+                  href="images/gallery_img-05.jpg"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal01"
+                  class="hoverbutton global-radius"
+                >
+                  <i class="fa fa-picture-o"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="relative gallery-single">
+              <img
+                src="images/gallery_img-06.jpg"
+                class="b-radius-m"
+                alt="Image"
+              />
+              <div class="img-overlay">
+                <a
+                  href="images/gallery_img-06.jpg"
+                  class="hoverbutton global-radius"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal01"
+                  onclick="showModal()"
+                >
+                  <i class="fa fa-picture-o"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- the blog page  -->
+    <div id="blog" class="bg-slate-200 pb-16 scrollspy">
+      <div class="mx-5 sm:mx-28">
+        <div class="text-center">
+          <h3 class="text-4xl text-zinc-800 font-semibold leadign-[62px] py-7">
+            Blog
+          </h3>
+          <p class="text-lg pb-8 font-base">
+            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+            vehicula enim, non aliquam risus.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-10">
+          <div>
+            <div class="bg-white rounded-t-[100px]">
+              <div class="relative overflow-hidden b-radius-m">
+                <img src="images/blog-01.jpg" alt="Image" class="img-fluid" />
+                <div
+                  class="inline-block absolute bottom-3 right-3 text-slate-50 font-semibold py-3 px-5 align-middle bg-sky-500"
+                >
+                  <span>06</span>
+                  <span>Aug</span>
+                </div>
+              </div>
+              <div
+                class="pt-0 pr-5 pb-10 pl-5 mt-14 bg-white"
+                style="text-align: left; font-size: 15px"
+              >
+                <h4 class="text-lg text-zinc-800 kanit-thin">
+                  Quisque auctor lectus interdum nisl accumsan venenatis.
+                </h4>
+                <ul class="mb-6 block">
+                  <li class="inline-block">by admin</li>
+                  <li class="inline-block">Apr 21, 2018</li>
+                  <li class="inline-block text-zinc-800">
+                    <a href="#"><b> Comments</b></a>
+                  </li>
+                </ul>
+                <p>
+                  Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit
+                  amet massa sodales aliquam at eget quam. Integer ultricies et
+                  magna quis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="bg-white rounded-t-[100px]">
+              <div class="relative overflow-hidden b-radius-m">
+                <img src="images/blog-01.jpg" alt="Image" class="img-fluid" />
+                <div
+                  class="inline-block absolute bottom-3 right-3 text-slate-50 font-semibold py-3 px-5 align-middle bg-sky-500"
+                >
+                  <span>06</span>
+                  <span>Aug</span>
+                </div>
+              </div>
+              <div
+                class="pt-0 pr-5 pb-10 pl-5 mt-14 bg-white"
+                style="text-align: left; font-size: 15px"
+              >
+                <h4 class="text-lg text-zinc-800 kanit-thin">
+                  Quisque auctor lectus interdum nisl accumsan venenatis.
+                </h4>
+                <ul class="mb-6 block">
+                  <li class="inline-block">by admin</li>
+                  <li class="inline-block">Apr 21, 2018</li>
+                  <li class="inline-block text-zinc-800">
+                    <a href="#"><b> Comments</b></a>
+                  </li>
+                </ul>
+                <p>
+                  Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit
+                  amet massa sodales aliquam at eget quam. Integer ultricies et
+                  magna quis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="bg-white rounded-t-[100px]">
+              <div class="relative overflow-hidden b-radius-m">
+                <img src="images/blog-01.jpg" alt="Image" class="img-fluid" />
+                <div
+                  class="inline-block absolute bottom-3 right-3 text-slate-50 font-semibold py-3 px-5 align-middle bg-sky-500"
+                >
+                  <span>06</span>
+                  <span>Aug</span>
+                </div>
+              </div>
+              <div
+                class="pt-0 pr-5 pb-10 pl-5 mt-14 bg-white"
+                style="text-align: left; font-size: 15px"
+              >
+                <h4 class="text-lg text-zinc-800 kanit-thin">
+                  Quisque auctor lectus interdum nisl accumsan venenatis.
+                </h4>
+                <ul class="mb-6 block">
+                  <li class="inline-block">by admin</li>
+                  <li class="inline-block">Apr 21, 2018</li>
+                  <li class="inline-block text-zinc-800">
+                    <a href="#"><b> Comments</b></a>
+                  </li>
+                </ul>
+                <p>
+                  Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit
+                  amet massa sodales aliquam at eget quam. Integer ultricies et
+                  magna quis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the team page -->
+    <div id="team" class="bg-white pt-8 scrollspy">
+      <div class="mx-5 sm:mx-28">
+        <div class="text-center">
+          <h3 class="text-4xl text-zinc-800 font-semibold leadign-[62px] py-7">
+            Our Team
+          </h3>
+          <p class="text-lg pb-8 font-base">
+            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+            vehicula enim, non aliquam risus.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-4 mt-8 gap-2">
+          <div class="group">
+            <div class="our-team">
+              <div
+                class="border-8 border-b-[#28a9e2] border-t-0 border-x-0 rounded-bl-[50%] overflow-hidden group-hover:border-zinc-800 duration-500"
+              >
+                <img src="images/img-2.jpg" />
+              </div>
+              <div class="mt-5">
+                <div class="text-center mb-2">
+                  <h3 class="text-center text-[#28a9e2] text-2xl font-bold">
+                    NSAIM ABDULLAH
+                  </h3>
+                  <span>Software Enginner</span>
+                </div>
+
+                <ul class="flex justify-center gap-2 text-[#28a9e2] social">
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-facebook group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-twitter group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-google-plus group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-skype group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="our-team">
+              <div
+                class="border-8 border-b-[#28a9e2] border-t-0 border-x-0 rounded-bl-[50%] overflow-hidden group-hover:border-zinc-800 duration-500"
+              >
+                <img src="images/img-2.jpg" />
+              </div>
+              <div class="mt-5">
+                <div class="text-center mb-2">
+                  <h3 class="text-center text-[#28a9e2] text-2xl font-bold">
+                    NSAIM ABDULLAH
+                  </h3>
+                  <span>Software Enginner</span>
+                </div>
+
+                <ul class="flex justify-center gap-2 text-[#28a9e2] social">
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-facebook group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-twitter group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-google-plus group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-skype group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="our-team">
+              <div
+                class="border-8 border-b-[#28a9e2] border-t-0 border-x-0 rounded-bl-[50%] overflow-hidden group-hover:border-zinc-800 duration-500"
+              >
+                <img src="images/img-2.jpg" />
+              </div>
+              <div class="mt-5">
+                <div class="text-center mb-2">
+                  <h3 class="text-center text-[#28a9e2] text-2xl font-bold">
+                    NSAIM ABDULLAH
+                  </h3>
+                  <span>Software Enginner</span>
+                </div>
+
+                <ul class="flex justify-center gap-2 text-[#28a9e2] social">
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-facebook group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-twitter group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-google-plus group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-skype group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="group">
+            <div class="our-team">
+              <div
+                class="border-8 border-b-[#28a9e2] border-t-0 border-x-0 rounded-bl-[50%] overflow-hidden group-hover:border-zinc-800 duration-500"
+              >
+                <img src="images/img-2.jpg" />
+              </div>
+              <div class="mt-5">
+                <div class="text-center mb-2">
+                  <h3 class="text-center text-[#28a9e2] text-2xl font-bold">
+                    NSAIM ABDULLAH
+                  </h3>
+                  <span>Software Enginner</span>
+                </div>
+
+                <ul class="flex justify-center gap-2 text-[#28a9e2] social">
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-facebook group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-twitter group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-google-plus group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                  <li class="inline-block">
+                    <a
+                      href="#"
+                      class="fa fa-skype group-hover:bg-zinc-800 group-hover:text-white"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the pricing page -->
+    <div id="pricing" class="bg-slate-200 mt-20 pb-10 scrollspy">
+      <div class="mx-5 sm:mx-28 py-10">
+        <div class="text-center">
+          <h3 class="text-4xl text-zinc-800 font-semibold leadign-[62px] py-7">
+            Pricing
+          </h3>
+          <p class="text-lg pb-8 font-base">
+            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+            vehicula enim, non aliquam risus.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <div
+            class="rounded-2xl overflow-hidden group hover:shadow-xl hover:shadow-zinc-800 duration-500"
+          >
+            <div class="bg-white">
+              <svg x="0" y="0" viewBox="0 0 360 220">
+                <g>
+                  <path
+                    fill="#28a9e2"
+                    d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                      c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                      s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                      L0.732,193.75z"
+                  ></path>
+                </g>
+                <text
+                  transform="matrix(1 0 0 1 69.7256 116.2686)"
+                  fill="#fff"
+                  font-size="78.4489"
+                >
+                  $10
+                </text>
+                <text
+                  transform="matrix(0.9566 0 0 1 197.3096 83.9121)"
+                  fill="#fff"
+                  font-size="29.0829"
+                >
+                  .99
+                </text>
+                <text
+                  transform="matrix(1 0 0 1 233.9629 115.5303)"
+                  fill="#fff"
+                  font-size="15.4128"
+                >
+                  /Month
+                </text>
+              </svg>
+              <div class="text-center">
+                <h3 class="text-4xl text-sky-500 my-5 font-bold">STANDARD</h3>
+                <ul class="text-lg flex flex-col gap-2">
+                  <li><b>50GB</b> Disk Space</li>
+                  <li><b>50</b> Email Accounts</li>
+                  <li><b>50GB</b> Bandwidth</li>
+                  <li><b>10</b> Subdomains</li>
+                  <li><b>15</b> Domains</li>
+                </ul>
+                <a
+                  href="#"
+                  class="bg-zinc-800 text-zinc-50 text-2xl font-semibold px-16 grid-cols-1 py-3 rounded-[20px] mb-10 hover:text-white btn-hover my-7 group-hover:shadow-lg group-hover:shadow-sky-700"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-2xl overflow-hidden group hover:shadow-xl hover:shadow-zinc-800 duration-500"
+          >
+            <div class="bg-white">
+              <svg x="0" y="0" viewBox="0 0 360 220">
+                <g>
+                  <path
+                    fill="#28a9e2"
+                    d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                      c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                      s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                      L0.732,193.75z"
+                  ></path>
+                </g>
+                <text
+                  transform="matrix(1 0 0 1 69.7256 116.2686)"
+                  fill="#fff"
+                  font-size="78.4489"
+                >
+                  $10
+                </text>
+                <text
+                  transform="matrix(0.9566 0 0 1 197.3096 83.9121)"
+                  fill="#fff"
+                  font-size="29.0829"
+                >
+                  .99
+                </text>
+                <text
+                  transform="matrix(1 0 0 1 233.9629 115.5303)"
+                  fill="#fff"
+                  font-size="15.4128"
+                >
+                  /Month
+                </text>
+              </svg>
+              <div class="text-center">
+                <h3 class="text-4xl text-sky-500 my-5 font-bold">STANDARD</h3>
+                <ul class="text-lg flex flex-col gap-2">
+                  <li><b>50GB</b> Disk Space</li>
+                  <li><b>50</b> Email Accounts</li>
+                  <li><b>50GB</b> Bandwidth</li>
+                  <li><b>10</b> Subdomains</li>
+                  <li><b>15</b> Domains</li>
+                </ul>
+                <a
+                  href="#"
+                  class="bg-zinc-800 text-zinc-50 text-2xl font-semibold px-16 grid-cols-1 py-3 rounded-[20px] mb-10 hover:text-white btn-hover my-7 group-hover:shadow-lg group-hover:shadow-sky-700"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-2xl overflow-hidden group hover:shadow-xl hover:shadow-zinc-800 duration-500"
+          >
+            <div class="bg-white">
+              <svg x="0" y="0" viewBox="0 0 360 220">
+                <g>
+                  <path
+                    fill="#28a9e2"
+                    d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                      c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                      s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                      L0.732,193.75z"
+                  ></path>
+                </g>
+                <text
+                  transform="matrix(1 0 0 1 69.7256 116.2686)"
+                  fill="#fff"
+                  font-size="78.4489"
+                >
+                  $10
+                </text>
+                <text
+                  transform="matrix(0.9566 0 0 1 197.3096 83.9121)"
+                  fill="#fff"
+                  font-size="29.0829"
+                >
+                  .99
+                </text>
+                <text
+                  transform="matrix(1 0 0 1 233.9629 115.5303)"
+                  fill="#fff"
+                  font-size="15.4128"
+                >
+                  /Month
+                </text>
+              </svg>
+              <div class="text-center">
+                <h3 class="text-4xl text-sky-500 my-5 font-bold">STANDARD</h3>
+                <ul class="text-lg flex flex-col gap-2">
+                  <li><b>50GB</b> Disk Space</li>
+                  <li><b>50</b> Email Accounts</li>
+                  <li><b>50GB</b> Bandwidth</li>
+                  <li><b>10</b> Subdomains</li>
+                  <li><b>15</b> Domains</li>
+                </ul>
+                <a
+                  href="#"
+                  class="bg-zinc-800 text-zinc-50 text-2xl font-semibold px-16 grid-cols-1 py-3 rounded-[20px] mb-10 hover:text-white btn-hover my-7 group-hover:shadow-lg group-hover:shadow-sky-700"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- this is contauct us page -->
+    <div id="contactus" class="bg-white scrollspy">
+      <div class="mx-5 sm:mx-28">
+        <div class="text-center pt-12">
+          <h3 class="text-4xl text-zinc-800 font-semibold leadign-[62px] py-7">
+            Contact
+          </h3>
+          <p class="text-lg pb-8 font-base">
+            Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+            vehicula enim, non aliquam risus.
+          </p>
+        </div>
+        <div class="row">
+          <div class="bg-slate-200 sm:p-10 p-5">
+            <form action="" id="contuctForm" class="grid grid-cols-1">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 justify-center">
+                <div class="flex flex-col">
+                  <input
+                    class="bg-zinc-800 text-slate-100 w-full h-14 px-8 text-base"
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <br />
+                  <input
+                    class="bg-zinc-800 text-slate-100 w-full h-14 px-8 text-base"
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                  <br />
+                  <input
+                    class="bg-zinc-800 text-slate-100 w-full h-14 px-8 text-base [&::-webkit-inner-spin-button]:appearance-none [appearance:textfield]"
+                    type="number"
+                    placeholder="Your Phone"
+                    required
+                  />
+                  <br />
+                </div>
+                <div class="second-part">
+                  <textarea
+                    style="min-height: 218px"
+                    placeholder="Your Message"
+                    name="Comments"
+                    id="text"
+                    class="bg-zinc-800 w-full py-5 px-8 resize-none text-base text-slate-100"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="text-center my-5">
+                <div id="success"></div>
+                <button
+                  id="sendMessageButton"
+                  class="bg-zinc-800 text-zinc-300 text-base font-semibold px-5 grid-cols-1 py-3 rounded-[20px] hover:text-white btn-hover"
+                  type="submit"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- the footer -->
+    <div class="bg-zinc-800 mt-16 scrollspy">
+      <div class="mx-5 sm:mx-28 py-5">
+        <div>
+          <a href="#" class="flex justify-center py-3">
+            <img src="images/logo.png" />
+          </a>
+          <div class="text-center">
+            <p class="text-base flex gap-6 justify-center uppercase py-3">
+              <a href="#">Home</a>
+              <a href="#">Blog</a>
+              <a href="#">Pricing</a>
+              <a href="#">About</a>
+              <a href="#">Faq</a>
+              <a href="#">Contact</a>
+            </p>
+            <p class="text-sm">
+              All Rights Reserved. © 2024
+              <a href="#" class="text-white">OnNext</a>
+              Design By : Wali Ahmad Mohammadi
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- these are the modals that open when some one click on the images -->
+    <!-- Main modal -->
+    <div id="myModal" class="hidden fixed z-50 w-full h-full bg-sky-300">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+        <img src="images/gallery_img-01.jpg" alt="" />
+      </div>
+    </div>
+
+    <script src="/src/index.js"></script>
+  </body>
+  <!-- for running tailwind use this in terminal
+  
+       npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+  
+  -->
+</html>
